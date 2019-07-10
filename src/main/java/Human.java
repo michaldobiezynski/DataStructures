@@ -9,6 +9,10 @@ public class Human {
 
     public Human() {
 
+        age =5;
+        eyeColor = "brown";
+        heightInInches = 72;
+        name = "Tom Zsabo";
     }
 
     public void speak() {
