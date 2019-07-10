@@ -13,6 +13,15 @@ public class Earth {
 
         tom.speak();
 
+        Human Joe;
+        Joe = new Human();
+        Joe.name = "Joe Goldenberg";
+        Joe.eyeColor = "green";
+        Joe.heightInInches = 80;
+        Joe.age = 6;
+
+        Joe.speak();
+
     }
 
 }
