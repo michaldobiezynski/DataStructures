@@ -6,6 +6,7 @@ public class Earth {
 
         Human tom;
         tom = new Human();
+        tom.speak();
 
     }
 
