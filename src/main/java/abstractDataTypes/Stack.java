@@ -13,8 +13,14 @@ public class Stack {
     }
 
     public void push(long j) {
-        top++;
-        stackArray[top] = j;
+
+        if(!isFull()) {
+            top++;
+            stackArray[top] = j;
+        } else {
+            System.out.println("The stack is full");
+        }
+
     }
 
     public long pop() {
