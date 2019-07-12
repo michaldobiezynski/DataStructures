@@ -1,5 +1,7 @@
 package abstractDataTypes;
 
+import java.util.LinkedList;
+
 public class App {
 
     public static void main(String args[]) {
@@ -11,6 +13,8 @@ public class App {
         myCounter.increment();
 
         System.out.println(myCounter.getCurrentValue());
+
+        LinkedList myList = new LinkedList();
 
     }
 
