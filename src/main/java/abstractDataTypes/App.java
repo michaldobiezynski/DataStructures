@@ -18,18 +18,12 @@ public class App {
 
         //NEW chapter - Stack
 
-        Stack theStack = new Stack(10);
+        Stack theStack = new Stack(3);
         theStack.push(20);
         theStack.push(40);
         theStack.push(60);
         theStack.push(80);
-        theStack.push(100);
-        theStack.push(120);
-        theStack.push(140);
-        theStack.push(160);
-        theStack.push(180);
-        theStack.push(200);
-        theStack.push(220);
+
 
         while(!theStack.isEmpty()) {
             long value = theStack.pop();

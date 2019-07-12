@@ -24,9 +24,15 @@ public class Stack {
     }
 
     public long pop() {
-        int old_top = top;
-        top--;
-        return stackArray[old_top];
+        if (isEmpty()) {
+            System.out.println("The stack is empty");
+            return -1;
+        }
+        else {
+            int old_top = top;
+            top--;
+            return stackArray[old_top];
+        }
     }
 
     public long peak() {
