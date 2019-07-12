@@ -23,4 +23,16 @@ public class Stack {
         return stackArray[old_top];
     }
 
+    public long peak() {
+        return stackArray[top];
+    }
+
+    public boolean isEmpty() {
+        return(top == -1);
+    }
+
+    public boolean isFull() {
+        return (maxSize-1 ==top);
+    }
+
 }
