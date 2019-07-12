@@ -2,8 +2,8 @@ package abstractDataTypes;
 
 public class Counter {
 
-    String name = null;
-    int value = 0;
+    private String name = null;
+    private int value = 0;
 
     Counter(String str) {
         this.name = str;
