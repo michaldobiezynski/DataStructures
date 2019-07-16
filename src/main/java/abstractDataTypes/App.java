@@ -19,22 +19,35 @@ public class App {
         //NEW chapter - Stack
 
         Stack theStack = new Stack(3);
-        theStack.push('t');
-        theStack.push('c');
-        theStack.push('b');
-        theStack.push('a');
 
         while(!theStack.isEmpty()) {
-            long value = theStack.pop();
+            char value = theStack.pop();
             System.out.println(value);
         }
 
-        theStack.pop();
+        reverseString("Hello");
 
     }
 
     public static String reverseString(String str) {
-        return str;
+
+        Stack newStack = new Stack(str.length());
+        StringBuilder stringBuilder = new StringBuilder();
+        String reversedString = "";
+
+        for(int i = 0; i<str.length(); i++) {
+            newStack.push(str.charAt(i));
+        }
+
+        while(!newStack.isEmpty()) {
+             stringBuilder.append(newStack.pop());
+        }
+
+        reversedString = stringBuilder.toString();
+
+        System.out.println(reversedString);
+
+        return reversedString;
     }
 
 }
