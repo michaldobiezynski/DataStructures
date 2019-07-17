@@ -17,17 +17,43 @@ public class Queue {
     }
 
     public void insert(long j) {
+
+        if(rear == maxSize -1) {
+            rear =1; // we will bring it back to the beggining and start overwritting
+        }
         rear++;
         queArray[rear] = j;
         nItems++;
     }
 
     public void view() {
-        System.out.print("[");
+        System.out.print("[ ");
         for(int i = 0; i < queArray.length; i++) {
             System.out.print(queArray[i] + " ");
         }
         System.out.print("]");
+    }
+
+    public long remove() { //remove item from the front of the queue
+        long temp = queArray[front];
+        front++;
+        if(front == maxSize) {
+            front = 0;//so that we can use the array again
+        }
+        nItems--;
+        return temp;
+    }
+
+    public long peekFront() {
+        return queArray[front];
+    }
+
+    public boolean isEmpty() {
+        return (nItems == 0);
+    }
+
+    public boolean isFull() {
+        return (nItems == maxSize);
     }
 
 }
