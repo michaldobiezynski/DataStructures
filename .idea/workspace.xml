@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e01799-14e1-479a-88cc-a9cf3318586a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedLists/App.java" afterDir="false" />
     </list>
     <list id="177de7c2-8d49-48ba-8186-a4f13f8bc9d6" name="Repository git" comment="Repository git" />
     <list id="d393bbd0-bfb1-4235-b897-f003e01c4cc7" name="unversioned files" comment="unversioned files" />
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+            <state relative-caret-position="512">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="e#1108#1109#0" expanded="true" />
                 <element signature="e#1145#1146#0" expanded="true" />
@@ -41,6 +41,15 @@
                 <element signature="e#1245#1246#0" expanded="true" />
                 <element signature="e#1275#1276#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LinkedLists/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -90,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LinkedLists/App.java" />
       </list>
     </option>
   </component>
@@ -155,6 +165,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="abstractDataTypes" type="462c0819:PsiDirectoryNode" />
               <item name="Queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedLists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Main" type="b2602c69:ProjectViewProjectNode" />
@@ -263,7 +281,7 @@
       <workItem from="1562777476553" duration="3769000" />
       <workItem from="1563260939249" duration="3258000" />
       <workItem from="1563286874695" duration="599000" />
-      <workItem from="1563349705896" duration="2380000" />
+      <workItem from="1563349705896" duration="2667000" />
     </task>
     <task id="LOCAL-00001" summary="first chapter of Section 1">
       <created>1562785912562</created>
@@ -325,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18815000" />
+    <option name="totallyTimeSpent" value="19102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1375" extended-state="6" />
@@ -464,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/abstractDataTypes/Queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+        <state relative-caret-position="512">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="e#1108#1109#0" expanded="true" />
             <element signature="e#1145#1146#0" expanded="true" />
@@ -474,6 +492,13 @@
             <element signature="e#1245#1246#0" expanded="true" />
             <element signature="e#1275#1276#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LinkedLists/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
