@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e01799-14e1-479a-88cc-a9cf3318586a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/BinarySearch/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/BinarySearch/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PopularSearchingAlgorithms/BinarySearch/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PopularSearchingAlgorithms/BinarySearch/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" afterDir="false" />
     </list>
     <list id="177de7c2-8d49-48ba-8186-a4f13f8bc9d6" name="Repository git" comment="Repository git" />
     <list id="d393bbd0-bfb1-4235-b897-f003e01c4cc7" name="unversioned files" comment="unversioned files" />
@@ -26,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -351,13 +347,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41299000" />
+    <option name="totallyTimeSpent" value="41628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,7 +363,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945284" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -627,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>

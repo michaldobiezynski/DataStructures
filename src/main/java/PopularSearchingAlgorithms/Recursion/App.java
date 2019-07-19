@@ -9,7 +9,7 @@ public class App {
         //array to be used in testing recursive linear search
         int a[] = {1,3,5,7,9,1,2,8,99};
 
-        recursiveLinearSearch(a,0,2);
+        recursiveLinearSearch(a,0,9);
     }
 
     public static void reduceByOne(int n) {
@@ -23,13 +23,13 @@ public class App {
 
     public static int recursiveLinearSearch(int [] a, int i, int x) {
 
-        if(i > a.length) {
+        if(i > a.length -1) {
             System.out.println(-1);
             return -1;
         }
         else if(a[i] == x) {
-            System.out.println(x);
-            return x;
+            System.out.println(i);
+            return i;
         }
         else {
             recursiveLinearSearch(a,i+1,x);
@@ -37,6 +37,7 @@ public class App {
 
         return -1;
     }
+
 
 }
 
