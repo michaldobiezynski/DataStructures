@@ -7,7 +7,7 @@ public class App {
         // test this now
         int testSearch[]  = {1,2,3,4,7,9,12,18};
 
-        System.out.println(binarySearch(testSearch, 91));
+        System.out.println(binarySearch(testSearch, 3));
     }
 
     public static int binarySearch(int [] a, int x) {
