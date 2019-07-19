@@ -15,11 +15,11 @@ public class App {
         int testSearch[]  = {1,2,3,4,7,9,12,18};
 
         System.out.println
-                (recursiveBinarySearch(testSearch,0,testSearch.length,18));
+                (recursiveBinarySearch(testSearch,0,testSearch.length,4));
     }
 
     public static int recursiveBinarySearch(int [] a, int p, int r, int x) {
-
+    System.out.println("[ " +p + " ...." + r + " ]");
         if(p>r){
 
             return -1;
