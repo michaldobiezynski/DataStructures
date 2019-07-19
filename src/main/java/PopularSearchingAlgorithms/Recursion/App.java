@@ -32,6 +32,7 @@ public class App {
             return i;
         }
         else {
+            System.out.println("index at: " + i);
             recursiveLinearSearch(a,i+1,x);
         }
 
