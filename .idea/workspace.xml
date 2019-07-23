@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e01799-14e1-479a-88cc-a9cf3318586a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/InsertionSort/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="177de7c2-8d49-48ba-8186-a4f13f8bc9d6" name="Repository git" comment="Repository git" />
@@ -20,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/InsertionSort/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/InsertionSort/App.java" />
       </list>
     </option>
   </component>
@@ -145,7 +155,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PopularSortingAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="SelectionSort" type="462c0819:PsiDirectoryNode" />
+              <item name="InsertionSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PopularSortingAlgorithms.SelectionSort.App" />
       <module name="DataStructures" />
@@ -199,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.SInglyLinkedList.App" />
-      <module name="Main" />
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PopularSortingAlgorithms.InsertionSort.App" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedLists.SInglyLinkedList.*" />
+          <option name="PATTERN" value="PopularSortingAlgorithms.InsertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
-        <item itemvalue="Application.App (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +289,7 @@
       <workItem from="1563286874695" duration="599000" />
       <workItem from="1563349705896" duration="4007000" />
       <workItem from="1563453926219" duration="19062000" />
-      <workItem from="1563643601543" duration="2125000" />
+      <workItem from="1563643601543" duration="4907000" />
     </task>
     <task id="LOCAL-00001" summary="first chapter of Section 1">
       <created>1562785912562</created>
@@ -341,7 +351,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46555000" />
+    <option name="totallyTimeSpent" value="49337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -624,8 +634,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/InsertionSort/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
