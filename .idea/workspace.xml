@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e01799-14e1-479a-88cc-a9cf3318586a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="177de7c2-8d49-48ba-8186-a4f13f8bc9d6" name="Repository git" comment="Repository git" />
     <list id="d393bbd0-bfb1-4235-b897-f003e01c4cc7" name="unversioned files" comment="unversioned files" />
@@ -18,34 +19,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/BinarySearch/App.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,6 +79,8 @@
         <option value="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/BasicLinearSearch/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/BinarySearch/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java" />
       </list>
     </option>
   </component>
@@ -105,11 +91,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1375" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,7 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,7 +136,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PopularSearchingAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="PopularSortingAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Main" type="b2602c69:ProjectViewProjectNode" />
@@ -159,32 +144,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PopularSearchingAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicLinearSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PopularSearchingAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="BinarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Main" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PopularSearchingAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="PopularSortingAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="SelectionSort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,13 +185,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.App" />
-      <module name="Main" />
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PopularSortingAlgorithms.SelectionSort.App" />
+      <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedLists.*" />
+          <option name="PATTERN" value="PopularSortingAlgorithms.SelectionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +279,7 @@
       <workItem from="1563286874695" duration="599000" />
       <workItem from="1563349705896" duration="4007000" />
       <workItem from="1563453926219" duration="19062000" />
+      <workItem from="1563643601543" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="first chapter of Section 1">
       <created>1562785912562</created>
@@ -373,13 +341,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43432000" />
+    <option name="totallyTimeSpent" value="46555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20386267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -649,8 +617,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PopularSearchingAlgorithms/Recursion/App.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PopularSortingAlgorithms/SelectionSort/App.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
