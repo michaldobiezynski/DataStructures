@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        int [] myArray= new int[] {8,38,53,113,412,97};
+        int [] myArray= new int[] {8,38,53,113,412,97,50,30};
 
         insertionSort(myArray);
 
