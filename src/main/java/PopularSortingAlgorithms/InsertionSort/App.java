@@ -4,7 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        int [] myArray= new int[] {8,38,53,113,412,97,50,30};
+        int [] myArray= new int[] {8,38,53,113,412,97,50,30,3,9};
 
         insertionSort(myArray);
 
@@ -22,7 +22,7 @@ public class App {
             int element =a[i]; //contains the data we intend on bringing ovder to the sorted area
             int j = i-1; // last index position of the sorted area
 
-            while(j > 0 && a[j] > element) {
+            while(j >= 0 && a[j] > element) {
                 a[j+1] = a[j];
                 j--;
             }
