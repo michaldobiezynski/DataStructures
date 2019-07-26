@@ -10,8 +10,8 @@ public class App {
         tree.insert(30, "Thirty");
         tree.insert(15, "Fifteen");
 
-        System.out.println(tree.findMax().key);
-        System.out.println(tree.findMin().key);
+        System.out.println(tree.findMax());
+        System.out.println(tree.findMin());
 
     }
 
