@@ -165,6 +165,44 @@ public class BST {
         return successor;
     }
 
+    public void displayTree() {
+        Node current = null;
+
+        if(root != null) {
+            System.out.println(root.key);
+        }
+
+        if (root.leftChild != null) {
+            displayTree(root.leftChild, root);
+        }
+
+        if (root.rightChild != null) {
+            displayTree(root.rightChild, root);
+
+        }
+
+    }
+
+    public void displayTree(Node node, Node Parent) {
+
+        if(node != null) {
+            System.out.print(" " + node.key + " ");
+            if((Parent.rightChild == node && Parent.leftChild == null)|| (Parent.leftChild == node && Parent.rightChild == null)) {
+                System.out.println(" ");
+            }
+        }
+        if(node.leftChild != null) {
+            displayTree(node.leftChild, node);
+        }
+
+        if(node.rightChild != null) {
+            displayTree(node.rightChild, node);
+        }
+
+    }
+
+
+
 }
 
 
