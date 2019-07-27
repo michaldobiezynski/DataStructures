@@ -1,5 +1,7 @@
 package BinarySearchTree;
 
+import java.util.Stack;
+
 public class BST {
 
     private Node root;
@@ -166,40 +168,53 @@ public class BST {
     }
 
     public void displayTree() {
-        Node current = null;
+        Stack globalStack = new Stack();
+        globalStack.push(root);
+        int nBlanks = 32;
+        boolean isRowEmpty = false;
+        System.out.println("......................................................");
 
-        if(root != null) {
-            System.out.println(root.key);
-        }
-
-        if (root.leftChild != null) {
-            displayTree(root.leftChild, root);
-        }
-
-        if (root.rightChild != null) {
-            displayTree(root.rightChild, root);
-
-        }
-
-    }
-
-    public void displayTree(Node node, Node Parent) {
-
-        if(node != null) {
-            System.out.print(" " + node.key + " ");
-            if((Parent.rightChild == node && Parent.leftChild == null)|| (Parent.leftChild == node && Parent.rightChild == null)) {
-                System.out.println(" ");
+        while(isRowEmpty==false) {
+            Stack localStack = new Stack();
+            isRowEmpty = true;
+            for(int j=0; j<nBlanks; j++) {
+                System.out.print(" ");
             }
-        }
-        if(node.leftChild != null) {
-            displayTree(node.leftChild, node);
-        }
 
-        if(node.rightChild != null) {
-            displayTree(node.rightChild, node);
+            while(globalStack.isEmpty()==false) {
+                Node temp = (Node)globalStack.pop();
+                if(temp != null) {
+                    System.out.print(temp.key);
+                    localStack.push(temp.leftChild);
+                    localStack.push(temp.rightChild);
+                    if(temp.leftChild != null || temp.rightChild != null) {
+                        isRowEmpty = false;
+                    }
+                } else {
+                    System.out.print("--");
+                    localStack.push(null);
+                    localStack.push(null);
+                }
+
+                for(int j=0; j<nBlanks*2-2; j++) {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+            nBlanks = nBlanks/2;
+
+            while(localStack.isEmpty()==false)
+                globalStack.push( localStack.pop() );
         }
+        System.out.println( "......................................................");
+
 
     }
+
+
+
+
 
 
 
